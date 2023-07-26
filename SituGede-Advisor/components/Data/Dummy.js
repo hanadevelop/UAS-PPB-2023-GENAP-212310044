@@ -1,0 +1,99 @@
+const Users = [
+    {
+        id: 1,
+        username: "Nagasa",
+        email: "nagasa.anandes@gmail.com",
+        password: "212310048",
+        domisili: "Bogor"
+    }
+];
+
+const DataFasilitas = [
+    {
+        id: 1,
+        nama_Fasilitas: "Area Parkir",
+        deskripsi_Fasilitas: "Area parkir di tempat wisata Danau Situ Gede adalah tempat yang dirancang dengan baik untuk memenuhi kebutuhan pengunjung yang datang dengan kendaraan pribadi. Terletak di dekat pintu masuk utama, area parkir ini menawarkan luas yang memadai untuk menampung berbagai jenis kendaraan, mulai dari mobil hingga sepeda motor. Dengan lantai yang halus dan rapi, area parkir ini memberikan kenyamanan saat memarkirkan kendaraan Anda. Ditandai dengan jelas, garis parkir yang teratur memudahkan pengunjung untuk menemukan tempat parkir yang tepat. Pencahayaan yang memadai juga memberikan rasa aman dan keamanan pada saat malam hari. Selain itu, area parkir di Danau Situ Gede juga dilengkapi dengan fasilitas tambahan, seperti area penjemputan dan pengantaran, serta area khusus untuk penyandang disabilitas. Tersedia juga toilet dan area istirahat yang dekat dengan parkiran, sehingga pengunjung dapat dengan nyaman melakukan persiapan sebelum menjelajahi keindahan danau. Dengan adanya area parkir yang luas dan terorganisir dengan baik, pengunjung dapat merasa tenang dan fokus sepenuhnya pada pengalaman mereka di Danau Situ Gede.",
+        rate_Fasilitas: 4,
+        Images: require('../../assets/Dokumentasi/parkiran.jpg')
+    },
+    {
+        id: 2,
+        nama_Fasilitas: "Balai Pertemuan",
+        deskripsi_Fasilitas: "Balai pertemuan di tempat wisata Danau Situ Gede adalah sebuah fasilitas modern yang dirancang untuk menyelenggarakan berbagai acara dan pertemuan dengan nyaman dan profesional. Terletak di tengah-tengah keindahan alam danau, balai pertemuan ini menawarkan suasana yang menenangkan dan pemandangan yang menakjubkan.Dengan desain arsitektur yang elegan dan terintegrasi dengan alam sekitarnya, balai pertemuan ini memberikan suasana yang menyenangkan dan inspiratif bagi para peserta acara. Ruangannya luas dan dapat menampung jumlah tamu yang cukup besar, sehingga cocok untuk konferensi, seminar, pertemuan bisnis, atau acara sosial lainnya. Balai pertemuan dilengkapi dengan fasilitas modern seperti sistem audio dan visual, layar proyektor, serta akses internet yang cepat. Selain itu, tersedia juga ruang khusus untuk istirahat dan makan, yang menyediakan hidangan lezat dan segar bagi peserta acara. Staf yang profesional dan ramah siap membantu mengatur segala kebutuhan acara, mulai dari penataan meja dan kursi hingga kebutuhan teknis. Selain kenyamanan dan fasilitasnya, balai pertemuan ini juga menawarkan pemandangan luar biasa dari Danau Situ Gede melalui jendela yang besar. Peserta acara dapat menikmati panorama alam yang menakjubkan, yang menambahkan nilai tambah pada pengalaman mereka. Dengan balai pertemuan yang modern dan terletak di lingkungan alam yang indah, tempat wisata Danau Situ Gede menjadi pilihan yang sempurna bagi mereka yang ingin mengadakan acara yang berkesan dan berhubungan dengan keindahan alam sekitar.",
+        rate_Fasilitas: 4,
+        Images: require('../../assets/Dokumentasi/balai.png')
+    },
+    {
+        id: 3,
+        nama_Fasilitas: "Kamar Mandi Umum",
+        deskripsi_Fasilitas: "Kamar mandi umum di tempat wisata Danau Situ Gede adalah fasilitas yang disediakan dengan tujuan memberikan kenyamanan dan kebersihan kepada para pengunjung. Terletak strategis di dekat area wisata utama, kamar mandi umum ini dirancang untuk memenuhi kebutuhan sanitasi para pengunjung dengan standar yang tinggi. Kamar mandi umum ini dirawat dengan baik dan dijaga kebersihannya secara teratur. Setiap kamar mandi dilengkapi dengan fasilitas dasar seperti toilet, wastafel, dan area untuk mencuci tangan. Kebersihan menjadi prioritas utama, sehingga pengunjung dapat merasa nyaman saat menggunakannya. Fasilitas kamar mandi umum di Danau Situ Gede juga dilengkapi dengan pasokan air bersih yang memadai dan sistem pembuangan yang efisien. Desainnya yang fungsional dan teratur memudahkan pengunjung untuk menggunakan fasilitas dengan mudah dan aman. Selain itu, kamar mandi umum ini sering dilengkapi dengan perlengkapan seperti tisu toilet, sabun cair, dan pengering tangan. Hal ini bertujuan untuk meningkatkan kenyamanan dan kebersihan bagi pengunjung. Dalam hal aksesibilitas, kamar mandi umum di Danau Situ Gede juga menyediakan fasilitas untuk penyandang disabilitas, seperti toilet yang dapat diakses dengan kursi roda dan pegangan yang memadai. Dengan adanya kamar mandi umum yang bersih, terawat, dan dilengkapi dengan fasilitas yang memadai, pengunjung dapat menjaga kebersihan pribadi mereka dan merasa nyaman selama mengunjungi Danau Situ Gede.",
+        rate_Fasilitas: 4,
+        Images: require('../../assets/Dokumentasi/toilet.jpg')
+    },
+    {
+        id: 4,
+        nama_Fasilitas: "Kios Souvenir",
+        deskripsi_Fasilitas: "Kios souvenir di tempat wisata Danau Situ Gede adalah tempat yang menawarkan beragam pilihan barang-barang kenang-kenangan yang unik dan berkualitas tinggi. Terletak strategis di dekat area pusat wisata, kios souvenir ini menjadi tempat yang populer bagi pengunjung yang ingin membawa pulang kenang-kenangan sebagai peringatan indah dari kunjungan mereka. Dengan desain yang menarik dan menawan, kios souvenir menciptakan suasana yang ramah dan mengundang para pengunjung untuk menjelajahi produk-produk yang ditawarkan. Di dalamnya, pengunjung dapat menemukan berbagai macam souvenir, seperti gantungan kunci, kerajinan tangan, pakaian, aksesori, lukisan, dan banyak lagi. Produk-produk souvenir yang ditawarkan di kios ini memiliki kualitas yang baik, baik dari segi desain, bahan, maupun keaslian. Banyak dari produk-produk tersebut terinspirasi oleh kekayaan alam dan budaya sekitar Danau Situ Gede, sehingga pengunjung dapat membawa pulang potongan kecil keindahan tersebut. Pelayanan di kios souvenir ini juga sangat baik, dengan staf yang ramah dan siap membantu pengunjung dalam memilih dan menemukan souvenir yang sesuai dengan preferensi mereka. Informasi tentang produk dan cerita di baliknya pun sering kali disediakan, memberikan pengalaman berbelanja yang lebih berarti. Selain itu, kios souvenir ini juga memberikan kemudahan bagi pengunjung dengan menyediakan berbagai pilihan pembayaran, termasuk tunai dan elektronik. Hal ini memastikan pengalaman berbelanja yang nyaman dan praktis bagi semua pengunjung. Dengan kios souvenir yang menawarkan berbagai pilihan barang berkualitas tinggi dan unik, pengunjung Danau Situ Gede dapat membawa pulang kenang-kenangan yang istimewa dan mengabadikan momen indah mereka di tempat wisata tersebut.",
+        rate_Fasilitas: 3,
+        Images: require('../../assets/Dokumentasi/kios.jpg')
+    },
+    {
+        id: 5,
+        nama_Fasilitas: "Kuliner",
+        deskripsi_Fasilitas: "Kuliner di tempat wisata Danau Situ Gede adalah perpaduan lezat antara kekayaan cita rasa lokal dan pesona alam yang memikat. Dengan pilihan makanan yang beragam, para pengunjung dapat menikmati santapan yang memuaskan di tengah suasana yang indah dan menenangkan. Restoran dan warung makan di sekitar Danau Situ Gede menawarkan hidangan yang menggugah selera, baik itu makanan khas daerah maupun hidangan internasional. Pengunjung dapat mencicipi berbagai hidangan tradisional Indonesia yang autentik, seperti nasi goreng, sate, gado-gado, dan soto. Selain itu, hidangan laut segar dan olahan ikan juga menjadi daya tarik tersendiri di tempat ini. Kuliner di Danau Situ Gede juga menyediakan pilihan vegetarian dan makanan sehat bagi mereka yang memiliki preferensi atau kebutuhan khusus. Buah-buahan segar, jus, dan salad yang menyegarkan juga tersedia untuk memberikan kesegaran selama berkunjung. Tidak hanya makanan, minuman yang menyegarkan juga menjadi bagian tak terpisahkan dari pengalaman kuliner di Danau Situ Gede. Pengunjung dapat menikmati minuman tradisional seperti wedang jahe atau es kelapa muda yang segar, atau memilih dari berbagai minuman modern seperti smoothie atau kopi spesial. Selain rasa yang lezat, pemandangan alam yang mempesona juga menjadi teman setia saat menikmati kuliner di Danau Situ Gede. Restoran-restoran dan warung makan sering kali menawarkan pemandangan langsung ke danau atau pemandangan alam sekitar yang menakjubkan. Dengan pilihan kuliner yang beragam, cita rasa yang lezat, dan suasana yang menenangkan, kuliner di tempat wisata Danau Situ Gede tidak hanya memuaskan perut pengunjung, tetapi juga memanjakan indra dan memberikan pengalaman yang tak terlupakan selama berwisata.",
+        rate_Fasilitas: 4,
+        Images: require('../../assets/Dokumentasi/kuliner.jpg')
+    },
+    {
+        id: 6, 
+        nama_Fasilitas: "Spot Foto",
+        deskripsi_Fasilitas: "Spot foto di tempat wisata Danau Situ Gede adalah surga bagi para pecinta fotografi dan penggemar selfie. Dengan keindahan alam yang memukau sebagai latar belakang, spot-spot ini menawarkan komposisi yang sempurna untuk mengabadikan momen-momen indah. Salah satu spot foto yang populer adalah dermaga di tepi danau. Dengan air yang tenang dan pemandangan pegunungan yang menghijau, dermaga ini menciptakan suasana yang menakjubkan. Pengunjung dapat berpose di sini sambil menikmati pemandangan yang mempesona atau mengambil gambar dengan cahaya matahari terbenam yang dramatis di belakang mereka. Area sekitar danau juga menawarkan spot-spot foto yang menarik. Pepohonan rindang, pepohonan cemara yang menjulang, atau bunga-bunga yang bermekaran menjadi latar yang sempurna untuk foto alam yang menawan. Pengunjung dapat mengeksplorasi dan mencari sudut yang unik untuk mengambil gambar yang memikat. Selain itu, jembatan-jembatan yang melintasi danau juga menjadi spot foto yang menarik. Jembatan yang terbuat dari kayu atau batu memberikan sentuhan estetika yang khas dan menciptakan kontras yang menarik dengan latar belakang air dan alam sekitarnya. Pengunjung dapat memanfaatkan jembatan ini untuk mengambil gambar yang menakjubkan. Selain spot alam, tempat wisata Danau Situ Gede juga menyediakan spot-spot foto bersejarah atau budaya. Misalnya, bangunan bersejarah, pura, atau tempat-tempat sakral yang ada di sekitar danau. Spot-spot ini memberikan kesempatan untuk mengabadikan aspek budaya dan sejarah yang kaya di tempat wisata tersebut. Tak ketinggalan, seni mural atau instalasi seni publik juga menjadi spot foto yang menarik. Tempat wisata Danau Situ Gede sering kali menghadirkan seni visual yang indah sebagai bagian dari pengalaman wisata. Pengunjung dapat mengambil gambar di depan seni ini untuk menciptakan foto yang kreatif dan menarik. Dengan berbagai spot foto yang memukau, tempat wisata Danau Situ Gede merupakan surga bagi para fotografer dan penggemar selfie. Setiap sudut tempat ini menawarkan keindahan yang tak terlupakan dan memberikan kesempatan untuk mengabadikan momen-momen spesial dalam bentuk gambar yang indah.",
+        rate_Fasilitas: 4,
+        Images: require('../../assets/Dokumentasi/fotoselfie.png')
+    },
+    {
+        id: 7,
+        nama_Fasilitas: "Konservasi",
+        deskripsi_Fasilitas: "Konservasi di tempat wisata Danau Situ Gede adalah upaya yang dilakukan untuk melindungi dan menjaga kelestarian lingkungan dan ekosistem di sekitar danau. Tempat wisata ini mengambil peran penting dalam menjaga keberlanjutan alam dan keanekaragaman hayati yang ada. Salah satu aspek konservasi yang ditekankan di Danau Situ Gede adalah kebersihan dan kelestarian lingkungan. Pihak pengelola tempat wisata secara rutin melakukan pembersihan dan pengelolaan sampah untuk menjaga kebersihan dan keindahan danau. Pengunjung juga didorong untuk menghargai danau dengan menjaga kebersihan, membuang sampah pada tempatnya, dan mengikuti aturan-aturan yang berlaku. Selain itu, konservasi di Danau Situ Gede juga melibatkan upaya pelestarian flora dan fauna di sekitar danau. Pihak pengelola melakukan pengawasan terhadap spesies tanaman dan hewan yang hidup di area tersebut. Tindakan pengendalian dan penjagaan dilakukan untuk mencegah gangguan yang dapat mengancam keberlangsungan ekosistem. Pendidikan dan kesadaran lingkungan juga menjadi bagian penting dari upaya konservasi di Danau Situ Gede. Pihak pengelola menyediakan informasi tentang pentingnya menjaga lingkungan dan keanekaragaman hayati kepada pengunjung. Program edukasi, seperti pengenalan flora dan fauna lokal, dapat meningkatkan pemahaman dan kesadaran tentang pentingnya konservasi alam. Selain itu, pihak pengelola juga terlibat dalam penelitian dan monitoring lingkungan di Danau Situ Gede. Ini membantu dalam pemahaman lebih lanjut tentang ekosistem dan perubahan yang terjadi di dalamnya. Informasi ini dapat digunakan untuk mengambil tindakan yang tepat dalam menjaga keberlanjutan danau. Dengan adanya upaya konservasi yang berkelanjutan di tempat wisata Danau Situ Gede, harapannya adalah keindahan alam danau ini dapat tetap terjaga dan dinikmati oleh generasi mendatang. Konservasi menjadi bagian penting dari pengelolaan tempat wisata ini, dengan tujuan menjaga kelestarian lingkungan dan memberikan pengalaman wisata yang bertanggung jawab kepada pengunjung.",
+        rate_Fasilitas: 5,
+        Images: require('../../assets/Dokumentasi/konservasi.jpg')
+    }
+];
+
+const AtraksiWisata = [
+    {
+        id: 1,
+        nama_Atraksi: "Wahana Air Bebek Bebekan",
+        deskripsi_Atraksi: "Atraksi wahana air Bebek-Bebekan di tempat wisata Danau Situ Gede adalah pengalaman yang mengasyikkan dan menghibur untuk pengunjung dari segala usia. Wahana ini merupakan perahu kecil berbentuk bebek yang dapat digunakan untuk menjelajahi danau dengan cara yang unik. Dalam wahana air Bebek-Bebekan, pengunjung dapat duduk di atas perahu bebek yang aman dan stabil, sambil menikmati perjalanan menyusuri air danau. Desain bebek yang lucu dan berwarna-warni menciptakan suasana yang ceria dan menyenangkan. Wahana ini cocok untuk pengunjung yang ingin menjelajahi keindahan Danau Situ Gede dengan cara yang menyenangkan dan santai. Bebek-Bebekan menghadirkan pengalaman yang menyegarkan dan memberikan kesempatan untuk menikmati pemandangan indah sekitar danau sambil berkeliling dengan perahu bebek yang unik. Para pengunjung dapat menikmati kegiatan ini bersama teman, keluarga, atau bahkan dalam rombongan yang lebih besar. Atraksi ini memungkinkan interaksi sosial yang menyenangkan dan menciptakan kenangan berharga. Selain itu, pengunjung juga dapat menggunakan wahana Bebek-Bebekan untuk berfoto dengan latar belakang danau yang menakjubkan. Momen-momen lucu dan ceria bersama perahu bebek ini dapat diabadikan dalam foto-foto yang menggemaskan. Dengan atraksi wahana air Bebek-Bebekan, pengunjung tempat wisata Danau Situ Gede dapat merasakan sensasi yang menyenangkan dan menghibur sambil menikmati keindahan alam sekitar. Wahana ini menjadi pilihan yang tepat untuk menciptakan pengalaman yang tak terlupakan dan membuat liburan di Danau Situ Gede lebih berwarna.",
+        rate_Atraksi: 3,
+    },
+    {
+        id: 2,
+        nama_Atraksi: "Wahana Kano",
+        deskripsi_Atraksi: "Atraksi wahana kano di tempat wisata Danau Situ Gede adalah pengalaman yang mengasyikkan bagi para pengunjung yang mencari petualangan di atas air. Wahana kano ini memungkinkan pengunjung untuk mengarungi danau dengan menggunakan perahu kano yang tangguh dan stabil. Dalam atraksi ini, pengunjung akan diberikan perahu kano yang aman dan nyaman untuk mengelilingi danau. Perahu kano tersebut dirancang khusus untuk menjaga keseimbangan dan memberikan stabilitas, sehingga pengunjung dapat menikmati perjalanan dengan rasa aman dan percaya diri. Dengan menggunakan dayung, pengunjung dapat memainkan peranan aktif dalam mengayuh perahu kano, menjelajahi sudut-sudut danau yang menarik. Pemandangan alam yang mempesona, seperti pegunungan yang hijau dan keindahan air danau, akan menyertai perjalanan kano ini, menciptakan suasana yang menenangkan dan memukau. Wahana kano ini cocok untuk pengunjung yang ingin menikmati keindahan Danau Situ Gede secara langsung dan lebih dekat dengan alam. Sambil mengayuh perahu kano, pengunjung dapat merasakan sensasi kebebasan dan kedamaian di tengah alam yang indah. Atraksi wahana kano juga memberikan kesempatan bagi pengunjung untuk berinteraksi dengan keluarga, teman, atau rekan lainnya. Bersama-sama, mereka dapat berkeliling danau, bermain-main, atau bahkan berkompetisi dalam olahraga kano yang menyenangkan. Wahana kano di tempat wisata Danau Situ Gede adalah pengalaman yang menggembirakan dan memuaskan bagi para petualang air. Dengan kombinasi antara olahraga, keindahan alam, dan kebersamaan, atraksi wahana kano ini memberikan kesempatan untuk menciptakan kenangan tak terlupakan selama berlibur di Danau Situ Gede.",
+        rate_Atraksi: 3,
+    },
+    {
+        id: 3,
+        nama_Atraksi: "Perahu",
+        deskripsi_Atraksi: "Atraksi perahu di tempat wisata Danau Situ Gede adalah pengalaman yang menakjubkan bagi para pengunjung yang ingin mengeksplorasi keindahan danau dengan cara yang santai dan nyaman. Atraksi ini menawarkan perjalanan yang menenangkan di atas air, memungkinkan pengunjung untuk menikmati panorama alam yang spektakuler. Perahu-perahu yang disediakan dalam atraksi ini dirancang khusus untuk memberikan kenyamanan dan stabilitas. Dengan berbagai ukuran dan jenis, terdapat pilihan perahu yang sesuai dengan kebutuhan pengunjung, baik untuk perjalanan individu maupun rombongan. Dalam atraksi perahu, pengunjung akan ditemani oleh pemandu yang berpengalaman dan mengenal dengan baik Danau Situ Gede. Pemandu akan memberikan informasi tentang tempat-tempat menarik di sekitar danau dan menjelaskan keunikan alam serta sejarahnya, sehingga pengunjung dapat memperoleh wawasan yang lebih dalam tentang tempat wisata tersebut. Perjalanan perahu mengelilingi Danau Situ Gede akan memperlihatkan pemandangan yang memukau, seperti pegunungan yang menjulang, vegetasi yang hijau, serta kehidupan air yang aktif. Pengunjung dapat menikmati keindahan alam yang menenangkan sambil melihat burung-burung yang berkeliaran atau ikan-ikan yang berenang di dalam air. Selain itu, atraksi perahu juga memberikan kesempatan bagi pengunjung untuk berfoto dengan latar belakang yang indah. Pemandangan danau yang mempesona dan keindahan alam sekitarnya menciptakan momen yang sempurna untuk mengabadikan kenangan indah selama berwisata. Atraksi perahu di tempat wisata Danau Situ Gede adalah pengalaman yang menenangkan dan menakjubkan. Dengan perjalanan yang menyenangkan di atas air dan pemandangan alam yang memukau, pengunjung dapat merasakan kedamaian dan keindahan yang ditawarkan oleh danau ini.",
+        rate_Atraksi: 3,
+    }
+];
+
+const DataReview = [
+    {
+        id: 1,
+        nama_Pengunjung: "Rizal Choirul",
+        Ulasan_Pengunjung: "Mau refreshing yg murah meriah, ke sini aja. Suasana alamnya dapet, bisa lihat danau dan hutan CIFOR. Hanya saja perlu pengelolaan untuk kebersihannya, karena klo dilihat2 kurang terawat fasilitas yg adanya. Dan yg bersih2 hutannya jg para penjual yg buka lapak di sana",
+        rate_Pengunjung: 4
+    },
+    {
+        id: 2,
+        nama_Pengunjung: "Ridwan Kamil",
+        Ulasan_Pengunjung: "Silakan manfaatkan Situ Gede yang sudah direvitalisasi oleh Provinsi untuk peningkatan ekonomi dan pariwisata, Tidak banyak kota-kota yang punya danau, jadi betul-betul ini harus dijadikan tempat yang luar biasa. Kalau masih kurang nanti kita bikin sesuatu yang viral. Mudah-mudahan membawa kemaslahatan buat masyarakat",
+        rate_Pengunjung: 4
+    }
+];
+
+export {Users, DataFasilitas, AtraksiWisata, DataReview}
